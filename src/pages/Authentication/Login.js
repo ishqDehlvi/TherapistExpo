@@ -65,6 +65,9 @@ const Login = (props) => {
           Forget Password
         </Text>
         <Button
+          onPress={() => {
+            props.navigation.navigate("IntroScreen");
+          }}
           title="Login"
           type="solid"
           raised={true}

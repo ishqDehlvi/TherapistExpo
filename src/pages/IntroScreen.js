@@ -34,6 +34,9 @@ const IntroScreen = props => {
       </View>
       <View style={{flex: 1}}>
         <Button
+                  onPress={() => {
+            props.navigation.navigate("Home");
+          }}
           title="Next"
           type="outline"
           // raised={true}
